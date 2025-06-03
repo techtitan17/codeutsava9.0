@@ -39,6 +39,7 @@ const Intro = () => {
   useEffect(() => {
     if (hidden && !showGif) {
       const homeMusic = new Audio(homeTheme);
+      homeMusic.preload='auto';
       homeMusic.loop = true; // optional: loop background music
       homeMusic.volume = 0.5; // optional: set volume
       homeMusic.play().catch((err) => {
