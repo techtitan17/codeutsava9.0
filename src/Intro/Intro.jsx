@@ -16,6 +16,7 @@ const Intro = () => {
   const handleHide = () => {
     if (introRef.current && !hidden) {
       const swordSound = new Audio(swordSoundFile); // Sword clash
+      swordSound.preload="auto";
       swordSound.play();
 
       gsap.to(introRef.current, {
