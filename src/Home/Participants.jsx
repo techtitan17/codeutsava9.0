@@ -1,6 +1,6 @@
 import "./Participants.css";
 import sword from "../assets/sword2.png";
-import ParticipantImg from "../assets/Participants.png";
+
 import Participantnumb from "./Participantnumb";
 export default function Participants(){
     return(
