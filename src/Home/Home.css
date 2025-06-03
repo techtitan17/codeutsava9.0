@@ -1,0 +1,47 @@
+
+.container1{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: floatText 3s ease-in-out infinite;
+    
+}
+
+@keyframes floatText {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+.btncontainer{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playbtn{
+  margin-top: 2rem;
+  /*padding: 1rem 2rem; */
+  /* background: linear-gradient(145deg, #ff4081, #fdd835); */
+   background: linear-gradient(145deg, #a932e0,#4b0082);
+   height: 5rem;
+   width: 10rem;
+   /* background-image: url("../assets/sword.jpg");
+   background-size: cover; */
+  border: none;
+  color: white;
+  
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  box-shadow: 10px 10px 15px #8559e4 ;
+  transform: skew(20deg);
+  transition: transform 0.3s;
+  border:2px solid white;
+  
+}
+.playbtn:hover{
+      
+      transform: scaleX(1.1);
+      
+}
+

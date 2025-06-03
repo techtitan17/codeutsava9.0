@@ -1,0 +1,19 @@
+.innovate{
+    margin-top: 5rem;
+    
+    text-align: center;
+    background-color: rgba(155, 34, 220, 0.1);
+    backdrop-filter: blur(15px); 
+}
+
+.innovateFont{
+    margin-top:3rem;
+    font-size: 3rem;
+    margin-bottom: 0;
+    color: aliceblue;
+}
+.largeFont{
+    font-size: 1.5rem;
+    transform: scaleX(1.4);
+    color: rgb(227, 142, 15);
+}

@@ -1,0 +1,23 @@
+.com{
+    border: 2px solid black ;
+    height: 5rem;
+    width: 15rem;
+      background: linear-gradient(145deg, #a932e0,#4b0082);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius:30px ;
+    /* align-items: center; */
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+
+.partcont{
+   
+    display: flex;
+    justify-content:space-around ;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    background-color: rgba(155, 34, 220, 0.1);
+    backdrop-filter: blur(15px);
+}

@@ -1,0 +1,35 @@
+.tcplogo{
+    /* height: 70px;
+    width: 70px; */
+    /* background-image:url("../assets/tcplogo.jpg");
+    background-size: cover; */
+    /* border-right: 5px solid rgb(165, 136, 219); */
+    /* border-radius: 10%; */
+    padding-top: 10px;
+    transition: transform 0.8s ease;
+}
+.tcplogo:hover{
+    /* transform:perspective(800px) translateZ(50px); */
+    transform: rotateZ(720deg);
+}
+.containerlogo{
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+}
+.tcpName{
+    padding-left: 5px;
+    padding-top: 10px;
+   
+    color:rgb(104, 104, 211);
+    text-shadow: 10px 10px 15px #8559e4 ;
+    font-size: 1.1rem;
+    /* transform: scaleX(1.5); */
+}
+.tcpName p{
+ margin-bottom: 0 !important;
+}
+
+.tcpName:hover{
+transform:perspective(800px) translateZ(50px);
+}
